@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
-import { Navigate, useNavigate } from 'react-router-dom';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
 const Connecter = () => {
 
     const [erreur, setErreur]=useState();
@@ -43,7 +43,11 @@ const Connecter = () => {
                 <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
             </div>
 
-            <p>Pas encore inscrit ? <a href='/base-fire/register'>S'inscrire</a> </p>
+            <p>Pas encore inscrit ? 
+              <Link to = {'/base-fire'} >
+              <a>S'inscrire</a> 
+              </Link>
+              </p>
             <button type="submit" class="btn btn-primary">Se connecter</button>
         </form>
       </div>

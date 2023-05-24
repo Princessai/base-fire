@@ -24,7 +24,7 @@ function App() {
                     <Route path="/update/:id" element={<AddEdit />} />
                     <Route path="/view/:id" element={<View />} />
                     <Route path="/about" element={<About />} />
-                    <Route path="/" element={<Connecter />} />
+                    <Route path="/base-fire" element={<Connecter />} />
                     <Route path="/register" element={<Inscription />} />
                 </Routes>
             </div>

@@ -25,7 +25,7 @@ function App() {
                     <Route path="/view/:id" element={<View />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/base-fire" element={<Connecter />} />
-                    <Route path="/register" element={<Inscription />} />
+                    <Route path="/base-fire/register" element={<Inscription />} />
                 </Routes>
             </div>
         </>

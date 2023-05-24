@@ -43,7 +43,7 @@ const Connecter = () => {
                 <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
             </div>
 
-            <p>Pas encore inscrit ? <a href='/register'>S'inscrire</a> </p>
+            <p>Pas encore inscrit ? <a href='/base-fire/register'>S'inscrire</a> </p>
             <button type="submit" class="btn btn-primary">Se connecter</button>
         </form>
       </div>

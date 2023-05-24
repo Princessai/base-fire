@@ -44,7 +44,7 @@ const Connecter = () => {
             </div>
 
             <p>Pas encore inscrit ? 
-              <Link to = {'/base-fire'} >
+              <Link to = {'/register'} >
               <a>S'inscrire</a> 
               </Link>
               </p>
